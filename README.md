@@ -88,7 +88,7 @@ Receiver FSM states:
 
 <p align="center">
 <b> Receiver FSM </b><br>
-<img src="./docs/receiver.png" width="500">
+<img src="./docs/reciever.png" width="500">
 </p>
 
 ---
