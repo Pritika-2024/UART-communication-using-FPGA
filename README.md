@@ -23,7 +23,7 @@
 
 # Overview
 
-This project implements a complete UART communication system directly in FPGA hardware using Verilog HDL. The system establishes serial communication between a PC and the Spartan-6 FPGA board through the onboard USB-to-UART interface.
+This project implements a complete UART communication system directly in FPGA hardware using Verilog HDL. The system establishes serial communication between a PC and the Spartan-6 MimasV2 FPGA board.
 
 The design includes:
 
@@ -133,11 +133,12 @@ The simulation verified:
 
 #  Hardware Implementation
 
-The UART system was programmed onto the Mimas V2 Spartan-6 FPGA board and tested using PuTTY serial terminal communication.
+The UART system was programmed onto the Mimas V2 Spartan-6 FPGA board and tested using PuTTY serial terminal communication. For error detection parity bit (first segment) along with charecter(second segment) is displayed on on-board seven segment.
 
 <p align="center">
 <b> Hardware Setup </b><br>
 <img src="./docs/hardware_setup.png" width="500">
+<img src="./docs/putty.png" width="500">
 </p>
 
 ---
@@ -190,4 +191,3 @@ The UART system successfully demonstrated:
 1. Spartan-6 FPGA Datasheet  
 2. Xilinx ISE 14.7 Documentation
 3. Nandland Fpga UART website
-4. FPGA Prototyping by VHDL Examples — Pong P. Chu
