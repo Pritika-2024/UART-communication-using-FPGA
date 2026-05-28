@@ -51,7 +51,7 @@ Data is transmitted in **LSB-first** format.
 
 <p align="center">
 <b> UART Block Diagram </b><br>
-<img src="./docs/block_diagram.png" width="650">
+<img src="./docs/block.png" width="650">
 </p>
 
 ---
@@ -68,7 +68,7 @@ The UART system consists of:
 
 <p align="center">
 <b> UART Architecture </b><br>
-<img src="./docs/uart_architecture.png" width="700">
+<img src="./docs/r1.png" width="700">
 </p>
 
 ---
@@ -88,7 +88,7 @@ Receiver FSM states:
 
 <p align="center">
 <b> Receiver FSM </b><br>
-<img src="./docs/rx_fsm.png" width="500">
+<img src="./docs/receiver.png" width="500">
 </p>
 
 ---
@@ -108,7 +108,7 @@ Transmitter FSM states:
 
 <p align="center">
 <b> Transmitter FSM </b><br>
-<img src="./docs/tx_fsm.png" width="500">
+<img src="./docs/transmitter.png" width="500">
 </p>
 
 ---
@@ -126,7 +126,7 @@ The simulation verified:
 
 <p align="center">
 <b> Simulation Waveform </b><br>
-<img src="./docs/simulation_waveform.png" width="700">
+<img src="./docs/simulation.png" width="700">
 </p>
 
 ---
@@ -137,8 +137,7 @@ The UART system was programmed onto the Mimas V2 Spartan-6 FPGA board and tested
 
 <p align="center">
 <b> Hardware Setup </b><br>
-<img src="./docs/hardware_setup.png" width="500">
-<img src="./docs/putty.png" width="500">
+<img src="./docs/hardware.png" width="500">
 </p>
 
 ---
